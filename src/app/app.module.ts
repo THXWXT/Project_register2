@@ -9,13 +9,15 @@ import { RegistrationComponent } from './components/registration/registration.co
 import {TableModule} from 'primeng/table';
 import {DropdownModule} from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AddAdminComponent } from './components/add-admin/add-admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MainComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    AddAdminComponent
   ],
   imports: [
     BrowserModule,
